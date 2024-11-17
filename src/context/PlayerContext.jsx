@@ -1,5 +1,4 @@
 import { createContext, useEffect, useRef, useState } from "react";
-import { useSearchParams } from "react-router-dom";
 import { songsData } from "../assets/assets/assets";
 
 export const PlayerContext = createContext();
